@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="e">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!--Font Google-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   <!--Fav Icon-->
+   <link
+   rel="shortcut icon"
+   href="../imagen/favicon-32x32.png"
+   type="image/x-icon"
+   />
+    <title>Imagine3Dcontactos</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+        <!--NAV BAR-->
+        <a href="/" ><img src="../imagen/imagine3D.png" alt="logoImagine3D" /></a>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../pages/Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../pages/Productos.html">Productos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../pages/Servicios.html">Servicios</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../pages/Contactos.html">Contactos </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+     <!--MAIN-->
+    <main>
+      <h2>Contacto</h2>
+      <section class="flex-container-contact">
+        <div class="form-send">
+          <form action="">
+              <div class="line-form" >
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre"id="Nombre" placeholder="Ej: Luke Skywalker" required />
+              </div>
+              <div class="line-form" >
+                <label  for="Correo">Correo electrónico</label>
+                <input type="text" name="Correo "id="Correo electronico" placeholder="Ej: L-Skywalker@gmail.com"required/>
+              </div>
+              <div class="line-form" >
+                <label for="Tipo">Tipo de Contacto</label>
+                <select name="Tipo" id="Tipo de contacto">
+                 <option value="Empresa">Empresa</option>
+                 <option value="Particular">Particular</option>
+                 <option value="Otro">Otro</option>
+                </select>
+              </div>
+              <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Escriba aquí su consulta"></textarea>
+              <div class="line-form" >
+               <label for="Recibir">Deseo recibir novedades en mi correo electrónico</label>
+               <input type="checkbox" name="acepta" value="1" />
+              </div>
+              <div>
+                <button input type="submit">Enviar</button>
+                <button input type="reset">Borrar</button>
+             </div>
+          </form>
+        </div>
+      </section>
+    </main>
+ <!--COMIENZA EL FOOTER-->
+ <footer class="footer">
+  <div class="footer-sm">
+    <div class="container-footer">
+      <div class="row footer-sm__icons">
+        <div class="col">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fas fa-phone-square-alt"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container-botton">
+      <div class="row footer-bottom__copyright">
+        <div class="col">
+          &copy; Copyright 2022 <a href="#">Imagine3D</a> | Creada por
+          <a href="">Sebastian Cardozo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
